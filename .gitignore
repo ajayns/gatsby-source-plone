@@ -1,14 +1,24 @@
 # plone
+*.Python
+*.installed.cfg
 api/bin
 api/lib
 api/eggs
 api/develop-eggs
+api/include/
 api/parts
+api/pip-selfcheck.json
 api/var
+bin/
+include/
+lib/
+pip-selfcheck.json
+selenium/
 
 # tests
 tests/gatsby-starter-default/node_modules
 
+yarn.lock
 packages/*/yarn.lock
 packages/*/package-lock.json
 
